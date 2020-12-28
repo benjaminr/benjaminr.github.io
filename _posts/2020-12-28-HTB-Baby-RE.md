@@ -5,9 +5,13 @@ category: hacking
 tags: htb sre hacking
 ---
 
+## Introduction
+
 > **Clue**: Show us your basic skills! (P.S. There are 4 ways to solve this, are you willing to try them all?)
 
 As with most [HTB](https://www.hackthebox.eu/) challenges, the first stage is to download the challenge archive and extract its content. The password for the archive is _hackthebox_.
+
+## Dealing with the archive
 
 Before extracting the archive, it's a good idea to get an idea of what you are about to extract. With a zip file, you can do the following:
 
@@ -87,6 +91,8 @@ Compressed: 2885
 
 Once extacted, the only content is a file called _baby_.
 
+## The extracted file
+
 Running the command _file_ on _baby_, we can see it's a Linux binary executable.
 
 ```bash
@@ -112,6 +118,8 @@ abcde122313
 As we can see, the flag is split across a few lines and we can't guarantee the lines are entirely correct.
 
 Taking note of the hint, here, perhaps using some static analysis could help. 
+
+## Static analysis
 
 Open the binary in your favourite disassembler and decompiler and navigate to the main function. 
 
