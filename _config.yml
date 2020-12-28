@@ -273,6 +273,8 @@ defaults:
       type: pages
     values:
       author_profile: false
+      sidebar:
+        nav: "docs"
   # _posts
   - scope:
       path: ""
