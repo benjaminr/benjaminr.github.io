@@ -2,6 +2,13 @@
 main:
   - title: "Home"
     url: https://benjamin.software
+    
+docs:
+  - title: "Tags"
+    children:
+      - title: "hacking"
+        url: /categories/hacking
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
