@@ -4,10 +4,10 @@ main:
     url: https://benjamin.software
     
 docs:
-  - title: "Tags"
+  - title: "Categories"
     children:
       - title: "hacking"
-        url: /categories/hacking
+        url: /categories/#hacking
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
