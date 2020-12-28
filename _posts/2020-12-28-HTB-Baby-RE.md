@@ -1,5 +1,10 @@
 
-# HTB: Baby RE
+---
+layout: post
+title: "HTB: Baby RE"
+category: hacking
+tags: htb sre hacking
+---
 
 > **Clue**: Show us your basic skills! (P.S. There are 4 ways to solve this, are you willing to try them all?)
 
