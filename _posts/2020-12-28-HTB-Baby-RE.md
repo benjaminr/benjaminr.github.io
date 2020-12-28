@@ -4,11 +4,10 @@ category: hacking
 tags: htb sre hacking
 ---
 
-## Introduction
-
 > **Clue**: Show us your basic skills! (P.S. There are 4 ways to solve this, are you willing to try them all?)
 
 As with most [HTB](https://www.hackthebox.eu/) challenges, the first stage is to download the challenge archive and extract its content. The password for the archive is _hackthebox_.
+<!--ex-->
 
 ## Dealing with the archive
 
