@@ -19,8 +19,8 @@ locale                   : "en-GB"
 title                    : "Bayesian Influence"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Benjamin Rowell"
-description              : ""
+name                     : #
+description              : #
 url                      : "https://benjamin.software"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
