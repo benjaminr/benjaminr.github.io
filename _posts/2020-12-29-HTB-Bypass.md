@@ -6,8 +6,6 @@ tags: htb sre hacking
 
 > **Clue**: The Client is in full control. Bypass the authentication and read the key to get the Flag.
 
-HTB: Bypass
-
 In this post, I take a look at the Hack the Box challenge Bypass. I also spend some time walking though how to set up an AWS Workspace and WorkDocs to manage your files.
 
 > Warning: As with any cloud infrastructure work, remember to shut down and/or delete any services and instances you are no longer using. Forgetting can be costly,  for both your pocket and for the environment!
