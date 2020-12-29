@@ -17,28 +17,28 @@ Archive:  Bypass.zip
   inflating: Bypass.exe
 ```
 
-I ran _file_ on the exe, just to double check it wasn't just conveniently named,
+I ran _file_ on the exe, just to double check it wasn't just conveniently named.
 
 ```bash
 > file Bypass.exe
 Bypass.exe: PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows
 ```
 
-It looks like a genuine exe and in particular a .NET application. Googling around the topics of .NET decompilation and disassembly, I came across a few apps that looked helpful.
+The file looked like a genuine exe and in particular a .NET application. Googling around the topics of .NET decompilation and disassembly, I came across a few apps that looked helpful. The ones I saw mentioned most often were Jetbrains dotPeek and dnSpy.
 
-Most of the tools were Windows based, which is a problem for me, working on a Mac, so I thought it'd be a good opportunity to play around with AWS Workspaces.
+Frustratingly for me, most of the tools were Windows based, so I thought it'd be a good opportunity to play around with AWS Workspaces.
 
 ## Setting up an AWS Workspace
 
 For a general guide, see [here](https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html).
 
-Navigate to the AWS Workspaces webpage and click _Get started with Amazon Workspaces_. 
+Navigate to the [AWS Workspaces](https://aws.amazon.com/workspaces/) webpage and click _Get started with Amazon Workspaces_. 
 
 Providing you are signed in you should be redirected to a regional dashboard where you can click _Get Started Now_.
 
 ![](/assets/images/HTB/Bypass/getting_started.png)
 
-After that, select Quick Start and click the _Launch_ button.
+After that, select _Quick Start_ and click the _Launch_ button.
 
 ![](/assets/images/HTB/Bypass/quick_start.png)
 
@@ -46,13 +46,13 @@ You'll then be prompted to select the Workspace you wish to launch.
 
 I selected _Standard with Windows 10_, as it was _Free tier_ eligible. 
 
+![](/assets/images/HTB/Bypass/win10.png)
+
 The accompanying Directory should be automatically configured and shouldn't cost anything additional to the cost of the Workspace.
 
 > If you use [Amazon WorkSpaces](https://aws.amazon.com/workspaces/), [Amazon WorkDocs](https://aws.amazon.com/workdocs/), or [Amazon WorkMail](https://aws.amazon.com/workmail/) in conjunction with AWS Directory Service, you will not be charged an additional fee for either Simple AD or AD Connector directories registered with these services, as long as you have active users of Amazon WorkSpaces, Amazon WorkDocs, or Amazon WorkMail. In order to qualify for free usage of Simple AD and AD Connector, you must have at least one active user for small directories each month and at least 100 active users for large directories each month.
 
-![](/assets/images/HTB/Bypass/win10.png)
-
-After entering a username, first name, last name and email address you should be able to launch the Workspace.
+After entering a _username, first name, last name and email address_ you should be able to launch the Workspace.
 
 If you don't already have an account set up with a password, you should be emailed to set one up.
 
