@@ -36,11 +36,11 @@ Navigate to the AWS Workspaces webpage and click _Get started with Amazon Worksp
 
 Providing you are signed in you should be redirected to a regional dashboard where you can click _Get Started Now_.
 
-![](assets/images/HTB/Bypass/getting_started.png)
+![](/assets/images/HTB/Bypass/getting_started.png)
 
 After that, select Quick Start and click the _Launch_ button.
 
-![](assets/images/HTB/Bypass/quick_start.png)
+![](/assets/images/HTB/Bypass/quick_start.png)
 
 You'll then be prompted to select the Workspace you wish to launch. 
 
@@ -50,7 +50,7 @@ The accompanying Directory should be automatically configured and shouldn't cost
 
 > If you use [Amazon WorkSpaces](https://aws.amazon.com/workspaces/), [Amazon WorkDocs](https://aws.amazon.com/workdocs/), or [Amazon WorkMail](https://aws.amazon.com/workmail/) in conjunction with AWS Directory Service, you will not be charged an additional fee for either Simple AD or AD Connector directories registered with these services, as long as you have active users of Amazon WorkSpaces, Amazon WorkDocs, or Amazon WorkMail. In order to qualify for free usage of Simple AD and AD Connector, you must have at least one active user for small directories each month and at least 100 active users for large directories each month.
 
-![](assets/images/HTB/Bypass/win10.png)
+![](/assets/images/HTB/Bypass/win10.png)
 
 After entering a username, first name, last name and email address you should be able to launch the Workspace.
 
@@ -62,11 +62,11 @@ Grab the registration code from your email and ensure you've set up a password f
 
 Once installed, launch the client and enter your credentials.
 
-![](assets/images/HTB/Bypass/workspace_login.png)
+![](/assets/images/HTB/Bypass/workspace_login.png)
 
 Providing everything goes smoothly, you should see a desktop appear:
 
-![](assets/images/HTB/Bypass/desktop.png)
+![](/assets/images/HTB/Bypass/desktop.png)
 
 ## WorkDocs
 
@@ -76,7 +76,7 @@ You'll first want to create one via the [AWS WorkDocs](https://aws.amazon.com/wo
 
 On your newly created AWS Workspace, click the Install Amazon WorkDocs icon and click through the installation until you're prompted by the following:
 
-![](assets/images/HTB/Bypass/workdocs.png)
+![](/assets/images/HTB/Bypass/workdocs.png)
 
 After clicking _Get Started_, you'll be able to provide your unique WorkDocs URL and click next. You'll then be prompted for your username and password, which you should've just set up. 
 
